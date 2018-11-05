@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="container">
     <div class="branding">
       <a href="#!"><img src="images/logo.svg" alt="Fylo Logo"></a>
     </div>
@@ -26,7 +26,7 @@
   </header>
 
   <main>
-    <section class="hero-a">
+    <section class="hero-a container">
       <div class="hero-image">
         <img src="images/illustration-1.svg" alt="Two people organizing documents in a folder">
       </div>
@@ -36,13 +36,13 @@
           Access them wherever you need, share and collaborate with friends,
           family, and co-workers.</p>
         <form class="get-started" id="email-form">
-          <input type="email" name="email" placeholder="Enter your email" id="email">
+          <input class="field" type="email" name="email" placeholder="Enter your email" id="email">
           <input type="button" class="btn" id="email-submit" value="Get Started">
         </form>
       </div>
     </section>
 
-    <section class="hero-b">
+    <section class="hero-b container">
       <div class="hero-image">
         <img src="images/illustration-2.svg" alt="Three people holding text bubbles">
       </div>
@@ -50,7 +50,7 @@
         <h3 class="subtitle">Stay productive, wherever you are</h3>
         <p> Never let location be an issue when accessing your files. Fylo has you
           covered for all of your file storage needs.
-
+          <br><br>
           Securely share files and folders with friends, family and colleagues for
           live collaboration. No email attachments required!</p>
 
@@ -62,32 +62,34 @@
           <img src="images/icon-quotes.svg" alt="Icon Quotes">
           <p>Fylo has improved our team productivity by an order of magnitude. Since
             making the switch our team has become a well-oiled collaboration machine.</p>
-          <div class="customer-info">
+          <div class="customer">
             <div class="avatar">
               <img src="images/avatar-testimonial.jpg" alt="Customer Avatar">
             </div>
-            <strong>Kyle Burton</strong>
-            <span>Founder & CEO, Huddle</span>
+            <div class="customer-info">
+              <span class="name">Kyle Burton</span>
+              <span class="job">Founder & CEO, Huddle</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="early-access">
-      <div class="early-access-info">
+      <div class="early-access-info container">
         <h2>Get early access today</h2>
         <p> It only takes a minute to sign up and our free starter tier is extremely generous.
           If you have any questions, our support team would be happy to help you.</p>
       </div>
       <div class="early-access-form">
         <form class="get-started" id="email-form">
-          <input type="email" name="email" placeholder="Enter your email" id="email">
-          <input type="button" class="btn" id="email-submit" value="Get Started">
+          <input type="email" class="field" name="email" placeholder="Enter your email" id="email">
+          <input type="button" class="btn" id="email-submit" value="Get Started For Free">
         </form>
       </div>
     </section>
   </main>
   <footer>
-    <div class="contact">
+    <div class="contact container">
       <div class="branding">
         <img src="images/logo-light.svg" alt="Fylo Logo Light">
       </div>
@@ -97,11 +99,11 @@
       </div>
       <div class="email">
         <img src="images/icon-email.svg" alt="Icon Email">
-        <span>conctac@fylo.com</span>
+        <span>conctact@fylo.com</span>
       </div>
     </div>
 
-    <nav class="footer-menu">
+    <nav class="footer-menu container">
       <ul class="footer-list">
         <li class="footer-item"><a href="#!" class="footer-link">About Us</a></li>
         <li class="footer-item"><a href="#!" class="footer-link">Jobs</a></li>
@@ -110,7 +112,7 @@
       </ul>
     </nav>
 
-    <nav class="footer-menu">
+    <nav class="footer-menu container">
       <ul class="footer-list">
         <li class="footer-item"><a href="#!" class="footer-link">Contact Us</a></li>
         <li class="footer-item"><a href="#!" class="footer-link">Terms</a></li>
@@ -118,7 +120,7 @@
       </ul>
     </nav>
 
-    <div class="social-media">
+    <div class="social-media container">
       <i class="fab fa-facebook-f"></i>
       <i class="fab fa-twitter"></i>
       <i class="fab fa-instagram"></i>
