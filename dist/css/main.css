@@ -22,6 +22,28 @@ body {
   margin-right: auto;
   padding: 1rem; }
 
+.success {
+  text-align: center;
+  display: block;
+  width: 250px;
+  background: green;
+  color: #fff;
+  padding: 0.5rem;
+  margin: 0.5rem auto;
+  border-radius: 3px;
+  opacity: 0.5; }
+
+.fail {
+  text-align: center;
+  display: block;
+  width: 250px;
+  background: red;
+  color: #fff;
+  padding: 0.5rem;
+  margin: 0.5rem auto;
+  border-radius: 3px;
+  opacity: 0.5; }
+
 header {
   display: flex;
   justify-content: space-between;
